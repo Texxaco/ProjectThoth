@@ -1,4 +1,4 @@
-# ProjectThoth
+# Project Thoth
 
-##License
+## License
   GPL-3.0-only
