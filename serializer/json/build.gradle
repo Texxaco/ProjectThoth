@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+group 'net.contexx.projectthoth.serializer'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven {
+        name = "Gitea"
+        url = uri("https://gitea.cloud.contexx.one/api/packages/contexx/maven")
+        credentials.username = project.properties["gitea_user"].toString()
+        credentials.password = project.properties["gitea_password"].toString()
+    }
+}
+
+dependencies {
+    implementation(project(":core"))
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.14.2'
+
+    testImplementation 'net.contexx.qft:qft-core:1.2.6'
+    testImplementation 'net.contexx.qft:qft-junit:1.2.5'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}

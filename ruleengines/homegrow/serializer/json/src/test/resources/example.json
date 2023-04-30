@@ -1,0 +1,17 @@
+{
+  "rule": {
+    "type": "AND",
+    "rules": [
+      {
+        "type": "OR",
+        "rules": []
+      },
+      {
+        "type": "condition",
+        "provider": "...",
+        "operation": "...",
+        "shoulds": ["", "", ""]
+      }
+    ]
+  }
+}

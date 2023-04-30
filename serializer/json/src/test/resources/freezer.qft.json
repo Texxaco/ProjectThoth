@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "engine": "junit-jupiter"
+  },
+  "contents": [
+    {"path":"net.contexx.thoth.json.phaseb.JsonSerializerTest/[engine:junit-jupiter]/[class:net.contexx.thoth.json.phaseb.JsonSerializerTest]/[method:storeAndLoad()]/Storage Content","type":"String","data":"{\"version\":1,\"origin\":\"Foobar\",\"templates\":[{\"name\":\"Template1\",\"identifier\":\"00000000-0000-0000-0000-000000000002\",\"attributes\":[],\"destinations\":[{\"name\":\"TestDestination\",\"attributes\":[]}],\"renderEngineMetaData\":{\"engineName\":\"DummyRenderer\",\"dataVersion\":1},\"renderInfo\":{}},{\"name\":\"Template2\",\"identifier\":\"00000000-0000-0000-0000-000000000003\",\"attributes\":[],\"destinations\":[{\"name\":\"TestDestination\",\"attributes\":[]}],\"renderEngineMetaData\":{\"engineName\":\"DummyRenderer\",\"dataVersion\":1},\"renderInfo\":{}},{\"name\":\"Template3\",\"identifier\":\"00000000-0000-0000-0000-000000000004\",\"attributes\":[],\"destinations\":[{\"name\":\"TestDestination\",\"attributes\":[]}],\"renderEngineMetaData\":{\"engineName\":\"DummyRenderer\",\"dataVersion\":1},\"renderInfo\":{}}]}"}
+  ]
+}
